@@ -56,9 +56,11 @@ h1{
     margin: 0px;
 }
 
-a{
+.columna a{
     text-decoration: none;
     color: white;
+    display: flex;
+    margin-left: 15px;
 }
 
 a:hover{
