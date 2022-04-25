@@ -1,0 +1,80 @@
+@media print { 
+    body{
+        background-color: white;
+    }
+}
+
+body{
+    background-color:#ddccaa;
+}
+
+@media (min-width: 400px){
+    p{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 300px){
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 200px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 200px) and (max-width: 400px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media (min-width: 400px){
+    .container{
+        width: 390px;
+    }
+}
+
+@media screen{
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (color:0){
+    #wikipedia-logo{
+        visibility:hidden;
+        display: none;
+        
+    }
+}
+
+@media (hover:hover){
+    blockquote{
+        background-color: #ccddaa;
+    }
+}
+
+/*
+
+navegadores en lo que funciona: chrome (38), edge (12), firefox (64), opera (28), zafari (9), WebView Android (38), 
+Chrome Android (50), Firefox for Android (64), Opera Android (28), Safari on IOS (9), Samsung Internet (5)
+
+navegadores en el que no funciona: internet explorer
+
+*/
+
+@media (aspect-ratio: 1/1){
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
