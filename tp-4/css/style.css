@@ -1,0 +1,33 @@
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
+    font-size: 25px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    background: url(https://64.media.tumblr.com/36993928e59b271df3961190a110c1b4/97c69debd9c49469-8a/s1280x1920/c7d99234f948b3df24b15c926b98579abf359de3.gifv);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    background: linear-gradient(to bottom, rgba(255, 38, 0, 0.249), rgba(255, 38, 0, 0.126));
+    width: 300px;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 530px;
+    padding: 10px;
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;  
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
