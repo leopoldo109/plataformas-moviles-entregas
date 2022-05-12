@@ -15,12 +15,16 @@ body{
 }
 
 .contenedor{
-    padding-top: 50px;
+    width: 720px;
+    height: 250px;
+    margin-top: 90px;
+    margin-left: 330px;
     text-align: center;
     letter-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.418);
 }
 
-.contenedor a{
+.caja a{
     text-decoration: none;
     color: white;
     padding-top: 5px;
@@ -28,7 +32,22 @@ body{
     letter-spacing: 5px;
 }
 
-a:hover{
+.caja{
+    padding-top: 50px;
+}
+
+.caja a:hover{
     text-decoration: underline;
-    color: rgb(124, 124, 124);
+}
+
+img{
+    height: 55px;
+    width: 65px;
+    float: left;
+    padding: 0px;
+}
+
+img:hover{
+    border-radius: 50%;
+    background-color: aliceblue;
 }

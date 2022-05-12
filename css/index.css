@@ -1,70 +1,49 @@
 body{
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: '8BIT WONDER', sans-serif;
+    text-align: center;
     color: white;
     font-size: 25px;
     overflow-y: hidden;
     overflow-x: hidden;
     padding: 0px;
     margin: 0px;
-    background: url(../imagenes/fondo.gif);
-    background-size:100% 100%;
+    background: url(https://64.media.tumblr.com/36993928e59b271df3961190a110c1b4/97c69debd9c49469-8a/s1280x1920/c7d99234f948b3df24b15c926b98579abf359de3.gifv);
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .contenedor{
-    background: url(https://media.istockphoto.com/photos/abstract-background-reflection-rough-chrome-metal-texture-picture-id1130707008?k=20&m=1130707008&s=612x612&w=0&h=5mJmQSNWWUkWKwP3hMKKFem1t7lFn8455jd0XuBdyPg=);
+    width: 720px;
+    height: 360px;
+    margin-top: 30px;
+    margin-left: 330px;
+    padding-top: 50px;
     text-align: center;
-    Border: 3px solid black;
-    height: 411px;
-    width: 591px;
-    margin: 0px 366px;
-    margin-top: 178px;
+    letter-spacing: 5px;
+    background-color: rgba(0, 0, 0, 0.418);
 }
 
-.caja{
-    background:url(https://us.123rf.com/450wm/alexzaitsev/alexzaitsev1503/alexzaitsev150300234/37352881-%EC%B9%A0%ED%8C%90-%EC%B9%A0%ED%8C%90-%ED%85%8D%EC%8A%A4%EC%B2%98-%EB%B6%84%ED%95%84-%EC%B6%94%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%B9%88-%EB%B9%88-%EA%B2%80%EC%9D%80-%EC%B9%A0%ED%8C%90.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 366px;
-    width: 591;
-    margin: 20px;
-    Border: 3px solid black;
-}
-
-h1{
-    margin: 0px;
-    color: rgb(255, 204, 0);
-    text-shadow: 3px 3px 3px black;
-    border-bottom: 3px solid white;
-}
-
-
-.columna{
-    height: 280px;
-    float: left;
-    border-right: 3px solid white ;
-    padding: 10px 50px;
-    padding-right: 70px;
-
-}
-
-.columna2{
-    height: 280px;
-    float: right;
-    padding-right: 150px;
-    margin: 0px;
-}
-
-.columna a{
+.contenedor a{
     text-decoration: none;
     color: white;
-    display: flex;
-    margin-left: 15px;
+    padding-top: 5px;
+    margin-left: 5px;  
+    letter-spacing: 5px;
+    display: block;
 }
 
 a:hover{
     text-decoration: underline;
-    color: rgb(255, 204, 0);
-    text-shadow: 2px 2px 2px black;
+}
+
+.next{
+    width: 200px;
+    height: 75px;
+    margin-left: 280px;
+    display: flex;
+}
+img{
+    height: 45px;
+    width: 75px;
 }
