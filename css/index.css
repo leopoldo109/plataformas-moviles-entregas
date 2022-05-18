@@ -31,8 +31,9 @@ body{
     display: block;
 }
 
-a:hover{
+.contenedor a:hover{
     text-decoration: underline;
+    color: gray;
 }
 
 .next{

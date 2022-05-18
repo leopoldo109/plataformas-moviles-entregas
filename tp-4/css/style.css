@@ -13,9 +13,11 @@ body{
 }
 
 .contenedor{
-    width: 600px;
+    width: 700px;
+    height: 190px;
     margin-top: 90px;
     margin-left: 340px;
+    text-align: center;
     letter-spacing: 5px;
 }
 
@@ -27,6 +29,9 @@ body{
     letter-spacing: 5px;
 }
 
+.caja{
+    padding-top: 25px;
+}
 
 .caja a:hover{
     text-decoration: underline;
