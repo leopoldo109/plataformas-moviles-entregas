@@ -1,5 +1,5 @@
 body{
-    font-family: '8BIT WONDER', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     color: white;
     font-size: 25px;
@@ -14,14 +14,12 @@ body{
 }
 
 .contenedor{
-    width: 720px;
-    height: 370px;
+    width: 700px;
     margin-top: 30px;
-    margin-left: 330px;
+    margin-left: 340px;
     padding-top: 50px;
     text-align: center;
     letter-spacing: 5px;
-    background-color: rgba(0, 0, 0, 0.418);
 }
 
 .contenedor a{
@@ -40,7 +38,7 @@ a:hover{
 .next{
     width: 200px;
     height: 75px;
-    margin-left: 280px;
+    margin-left: 260px;
     display: flex;
 }
 img{

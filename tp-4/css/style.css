@@ -1,8 +1,6 @@
 
 body{
-    font-family: '8BIT WONDER', sans-serif;
     text-align: center;
-    color: white;
     font-size: 25px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -15,13 +13,10 @@ body{
 }
 
 .contenedor{
-    width: 720px;
-    height: 250px;
+    width: 600px;
     margin-top: 90px;
-    margin-left: 330px;
-    text-align: center;
+    margin-left: 340px;
     letter-spacing: 5px;
-    background-color: rgba(0, 0, 0, 0.418);
 }
 
 .caja a{
@@ -32,12 +27,10 @@ body{
     letter-spacing: 5px;
 }
 
-.caja{
-    padding-top: 50px;
-}
 
 .caja a:hover{
     text-decoration: underline;
+    color: gray;
 }
 
 img{
