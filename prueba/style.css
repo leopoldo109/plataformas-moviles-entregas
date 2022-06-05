@@ -1,0 +1,95 @@
+.inicio{
+    width: 1320px;
+    margin: 20px 0px 10px 20px;
+
+}
+
+.inicio img{
+    clip-path: inset(40px 20px 40px 20px round 15px);
+}
+
+#peruana{
+    width: 400px;
+    margin-top: 50px;   
+}
+
+.tramite{
+    background-color: #f3faff;
+    width: 650px;
+    padding: 10px;
+    border: solid 2px #0072bb;
+    border-radius: 5px;
+}
+
+.tramite img{
+    width: 80px;
+    float: left;
+}
+
+
+.linea{
+    background-color: orange; 
+    width: 420px;
+    height: 10px;
+    border-bottom-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+}
+
+.linea-2{
+    background-color: rgb(255, 0, 106); 
+    width: 420px;
+    height: 10px;
+    border-bottom-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+}
+
+.linea-3{
+    background-color: rgb(101, 80, 145); 
+    width: 420px;
+    height: 10px;
+    border-bottom-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+}
+
+
+.info{
+    margin: 20px 0px 40px 40px;
+}
+
+.caja{
+    width: 350px;
+    height: 100px;
+    margin: 10px 40px;
+}
+
+.caja h4{
+    text-transform: capitalize;
+}
+
+.caja p{
+    box-shadow: none;
+    color: black;
+    margin-top: 5px;
+}
+
+.data{
+    margin-left: 100px;
+    border-top: solid 1px grey;
+    padding-top: 50px;
+}
+
+.footer{
+    margin-top: 10px;
+    padding: 50px;
+    background-color: rgb(91, 148, 184);
+}
+
+.imagen{
+    float: left;
+    height: 150px;
+}
+
+.texto{
+    margin-left: 5px;
+}
+
