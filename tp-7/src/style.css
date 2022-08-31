@@ -1,0 +1,50 @@
+body {
+    background: #000 url('img/bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.card{
+    background: url('img/bg.jpg') no-repeat;
+    border: rgb(57, 81, 59) 2px solid;
+}
+
+.titulo{
+    margin-left: 100px;
+    color: white;
+    text-shadow: rgb(0 0 0) 1px 1px;
+
+}
+
+span{
+    color: rgb(72, 127, 90);
+}
+
+.col-12{
+    padding-top: 10px;
+}
+
+.vs{
+    padding-top: 200px;
+    padding-left: 150px;
+    color: rgb(0, 55, 17);
+}
+
+footer{
+    background-color: rgb(17, 29, 17);
+    margin-top: 100px;
+    padding: 50px;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
